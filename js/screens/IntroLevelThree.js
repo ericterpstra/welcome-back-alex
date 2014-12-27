@@ -17,9 +17,17 @@ WelcomeBack.IntroLevelThree.prototype = {
         var t2 = this.game.add.text(this.game.width/2, 90, text, style);
         t2.anchor.set(0.5);
         
-        text = "Walk for 60 seconds. Don't run into stuff!";
-        var t3 = this.game.add.text(this.game.width/2, this.game.height/2 + 50, text, style);
+        text = "Walk for 60 seconds.\nAvoid cars and lamp posts!";
+        var t3 = this.game.add.text(this.game.width/2, this.game.height - 50, text, style);
         t3.anchor.set(0.5);
+        
+        // GFX
+        var a1 = this.game.add.sprite(this.game.width/2 - 40, this.game.height/2, 'alex', 9);
+        a1.anchor.set(.5);
+        var z = this.game.add.sprite(this.game.width/2 - 90, this.game.height/2, 'sophie');
+        //z.anchor.set();
+        var c = this.game.add.sprite(this.game.width/2 + 80, this.game.height/2, 'whitecar', 1);
+        c.anchor.set(.5);
     }, 
     
     update: function() {

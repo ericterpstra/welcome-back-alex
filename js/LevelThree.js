@@ -121,7 +121,7 @@ WelcomeBack.LevelThree.prototype = {
     },
     
     driveCar: function(car) {
-        var s = Math.floor(Math.random() * (250 - 110 + 1)) + 110;
+        var s = Math.floor(Math.random() * (220 - 100 + 1)) + 100;
         this.game.physics.arcade.moveToXY(car, 0-car.width - 2, car.y, s);       
     },
     

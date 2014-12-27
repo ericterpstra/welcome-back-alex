@@ -11,6 +11,9 @@ WelcomeBack.Preload.prototype = {
         
         this.load.spritesheet( 'alex', 'assets/images/alex.png', 32, 64 );
         
+        // Main Menu
+        this.load.image('mainbg', 'assets/images/mainbg.png');
+        
         // Level One
         this.load.image('grass', 'assets/images/grasstile.png');
         this.load.spritesheet( 'zerg', 'assets/images/zergdrone.png', 48, 48 );
@@ -32,7 +35,11 @@ WelcomeBack.Preload.prototype = {
         this.load.image('whitecar', 'assets/images/l3/whitecar.png');
         this.load.image('streetlamp', 'assets/images/l3/streetlamp.png');
         
-        
+        // Winner
+        this.load.spritesheet( 'eric', 'assets/images/eric.png', 32, 64 );
+        this.load.spritesheet( 'laura', 'assets/images/Laura.png', 32, 64 );
+        this.load.spritesheet( 'craig', 'assets/images/craig.png', 32, 64 );
+        this.load.spritesheet( 'karen', 'assets/images/karen.png', 80, 110 );
     },
     
     create: function() {

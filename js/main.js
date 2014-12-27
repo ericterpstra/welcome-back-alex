@@ -1,6 +1,6 @@
 var WelcomeBack = WelcomeBack || {};
 
-WelcomeBack.game = new Phaser.Game(480, 320, Phaser.AUTO, '');
+WelcomeBack.game = new Phaser.Game(480, 320, Phaser.CANVAS, '');
 
 WelcomeBack.game.state.add('Boot',            WelcomeBack.Boot);
 WelcomeBack.game.state.add('Preload',         WelcomeBack.Preload);

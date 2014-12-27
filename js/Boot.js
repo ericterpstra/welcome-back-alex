@@ -10,9 +10,12 @@ WelcomeBack.Boot.prototype = {
     create: function() {
         this.game.stage.backgroundColor = '#000';
         
-        this.scale.scaleMode = Phaser.ScaleManager.NO_SCALE;
-        this.scale.width = 480;
-        this.scale.height = 320;
+//        this.scale.scaleMode = Phaser.ScaleManager.NO_SCALE;
+//        this.scale.width = 480;
+//        this.scale.height = 320;
+        this.scale.scaleMode = Phaser.ScaleManager.EXACT;
+        this.scale.width = 960;
+        this.scale.height = 640;
         
         this.game.physics.startSystem(Phaser.Physics.ARCADE);
         

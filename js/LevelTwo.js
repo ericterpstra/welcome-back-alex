@@ -20,17 +20,16 @@ WelcomeBack.LevelTwo.prototype = {
         this.player.sprite.body.setSize(20,48,6,8);
         
         // CREATE LOBSTERS
-        this.createLobsters(12);
+        this.createLobsters(15);
 
         // CREATE BEACHBUMS
         this.xvar = 25;
-        this.createBeachbums(25);
+        this.createBeachbums(28);
         
         // CREATE GIRL
         this.beachgirl = this.game.add.sprite(this.game.world.width - 32, this.game.world.height / 2, 'beachgirl', 1);
         this.game.physics.arcade.enable(this.beachgirl);
         this.beachgirl.allowRotation = false;
-        //this.beachgirl = this.game.add.sprite(32, this.game.world.height / 2, 'beachgirl', 1);
         
     },
     
@@ -43,7 +42,7 @@ WelcomeBack.LevelTwo.prototype = {
     },
     
     render: function() {
-        this.game.debug.spriteBounds(this.player.sprite);    
+        //this.game.debug.spriteBounds(this.player.sprite);    
     },
     
     createBeachbums: function(numBums) {
@@ -112,8 +111,8 @@ WelcomeBack.LevelTwo.prototype = {
             x = startingX + (bumOffset * i);
             y = Math.floor((Math.random() * (this.game.world.height - 50)) + 50);
             
-            var bum = this.createLobster(x,y);
-            bum.animations.play('jiggle');
+            var lobster = this.createLobster(x,y);
+            lobster.animations.play('jiggle');
         }
     }, 
     
