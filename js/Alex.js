@@ -86,7 +86,7 @@ WelcomeBack.Alex.prototype = {
         }
     },
     
-    runnerUpdate() {
+    runnerUpdate: function() {
         this.sprite.body.velocity.y = 0;
         this.sprite.body.velocity.x = 0;
 

@@ -70,7 +70,7 @@ WelcomeBack.LevelTwo.prototype = {
         }
     }, 
     
-    createBum(x,y) {
+    createBum: function(x,y) {
         var bum = this.beachbums.create(x,y,'beachbum');
         bum.animations.add('down', [0,1,0,2], this.beachbumFramerate, true);
         bum.animations.add('up', [12,13,12,14], this.beachbumFramerate, true);
@@ -116,7 +116,7 @@ WelcomeBack.LevelTwo.prototype = {
         }
     }, 
     
-    createLobster(x,y) {
+    createLobster: function(x,y) {
         var lobster = this.lobsters.create(x,y,'lobster');
         lobster.animations.add('jiggle', [0,1], 4, true);
         return lobster;
