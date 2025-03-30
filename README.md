@@ -8,4 +8,4 @@ Phaser.io Given that Christmas was my deadline, and I started in mid-November, I
 
 The game itself follows my brother, Alex, on his journey home from Korea. In level one, Alex must protect the school-children from the invading Zerglings. In real life, Alex spent a few months bumming around the South Pacific backpacking through jungles and across beaches. So in level two, the objective is to cross the beach, avoiding obstacles and find the lovely lady. Finally, Alex reaches home (Wisconsin) and decides to take our parent’s new dog, Sophie, for a walk – in the middle of the street! Avoid the cars and win the game!
 
-The source code is available on Github, and I can’t promise that it’s great. The modules are haphazardly written and there’s definitely some copy-pasta going on in a few places, but I tried to take as many queues from the official docs as possible in regards to best practices. Follow the links below to play the game, or view the code.
+[Play the game!](https://welcomebackalex.ericterpstra.com)
